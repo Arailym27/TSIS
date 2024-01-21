@@ -1,0 +1,12 @@
+MyVariableName="Arai"
+myVariableName="Arailym"
+my_variable_name="Araika"
+m1_v="Fari"
+MYVAR="Fariza"
+myvar2="Fara"
+print(MyVariableName)
+print(myVariableName)
+print(my_variable_name)
+print(m1_v)
+print(MYVAR)
+print(myvar2)
