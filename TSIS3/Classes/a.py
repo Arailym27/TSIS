@@ -1,4 +1,7 @@
 class string_up:
+    def __init__(self):
+        self.input_string = ""
+        
     def get_string(self):
         self.s=input()
 
