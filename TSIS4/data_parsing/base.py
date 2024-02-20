@@ -1,0 +1,12 @@
+import datetime
+x=datetime.datetime.now()
+print(datetime.datetime(2022,2,23,12,13,12))
+print(datetime.time())
+print(datetime.time(10,12,37))
+td_object=datetime.timedelta(days=5,seconds=60,weeks=7,hours=3)
+day=datetime.timedelta(days=7)
+print(day)
+print(td_object)
+print(x)
+x = datetime.datetime(2018, 6, 1)
+print(x.strftime("%B"))

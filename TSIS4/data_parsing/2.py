@@ -1,0 +1,10 @@
+import datetime
+now=datetime.datetime.now()
+yest=now-datetime.timedelta(days=1)
+tom=now+datetime.timedelta(days=1)
+print(yest)
+print(now)
+print(tom)
+print(yest.strftime("Yesterday:%A"))
+print(now.strftime("Today:%A"))
+print(tom.strftime("Tommorow:%A"))
