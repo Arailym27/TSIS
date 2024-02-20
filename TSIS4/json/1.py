@@ -1,5 +1,5 @@
 import json
-with open("sample-data.json", "r") as f:
+with open("/Users/arajlymkabykenova/Desktop/PP2/TSIS4/json/sample-data.json", "r") as f:
     json_string = f.read()
 data = json.loads(json_string)
 
