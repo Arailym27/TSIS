@@ -1,0 +1,34 @@
+Өмір жайлы
+Өмір жайлы сұрай берме сен менен,
+Өмірді мен әлі зерттеп көрмеп ем.
+Өмір жайлы білгің келсе, қартқа бар,
+Қан майданнан жалғыз ұлы келмеген.
+Жесір келін, бір нәресте көрмеген,
+
+Жетім шалды бала орнына тербеген.Жетім шалды бала орнына тербеген.
+import os
+
+def list_directories(path):
+    print("Список каталогов:")
+    for item in os.listdir(path):
+        if os.path.isdir(os.path.join(path, item)):
+            print(item)
+
+def list_files(path):
+    print("\nСписок файлов:")
+    for item in os.listdir(path):
+        if os.path.isfile(os.path.join(path, item)):
+            print(item)
+
+def list_all(path):
+    print("\nСписок всех каталогов и файлов:")
+    for item in os.listdir(path):
+        print(item)
+
+# Вводим путь от пользователя
+path = input("Введите путь для проверки: ")
+
+# Вызываем соответствующие функции
+list_directories(path)
+list_files(path)
+list_all(path)
